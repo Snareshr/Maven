@@ -11,15 +11,15 @@
   <description>Maven Web Project for Java</description>
 
  <organization>
-     <name>Shiva Technologies</name>
-     <url>http://shivatechnologies.com/</url>
+     <name>NareshSubha</name>
+     <url>https://github.com/Snareshr/Maven.git</url>
  </organization>
 
-  <properties>
+ // <properties>
 	    <spring.version>5.2.1.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-	 	<sonar.host.url>http://localhost:9000/</sonar.host.url>
+	   <sonar.host.url>http://localhost:9000/</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -29,18 +29,18 @@
          the same report, so that, it will give the cross-module code coverage. -->
      	<sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
         <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
-  </properties>
+  </properties> //
 
     <scm>
-        <connection>scm:git:https://github.com/shivaquest/Maven-web-project</connection>
-        <developerConnection>scm:git:https://github.com/shivaquest/Maven-web-project</developerConnection>
+        <connection>scm:git:https://github.com/Snareshr/Maven.git</connection>
+        <developerConnection>scm:git:https://github.com/Snareshr/Maven.git</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/shivaquest/Maven-web-project</url>
+        <url>https:https://github.com/Snareshr/Maven.git</url>
     </scm>
 	
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/shivaquest/Maven-web-project/issues</url>
+        <url>https:https://github.com/Snareshr/Maven.git/issues</url>
     </issueManagement>
 	
 	
@@ -101,12 +101,12 @@
      <repository>
 	<id>nexus</id>
 	<name>web-releases</name>
-	<url>http://3.133.154.36:8081/repository/Web_releases/</url>
+	<url>https://github.com/Snareshr/Maven.git/</url>
      </repository>
      <snapshotRepository>
 	<id>nexus</id>
 	<name>web-snapshots</name>
-	<url>http://3.133.154.36:8081/repository/Web_snapshots/</url>
+	<url>https://github.com/Snareshr/Maven.git/</url>
      </snapshotRepository>
 </distributionManagement>
 
